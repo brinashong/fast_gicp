@@ -4,6 +4,10 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 
+// For disable PCL complile lib, to use PointXYZIRL    
+#define PCL_NO_PRECOMPILE
+#include <fast_gicp/gicp/descriptor_point_type.hpp>
+
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 #include <pcl/search/kdtree.h>
