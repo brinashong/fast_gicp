@@ -4,3 +4,4 @@
 template class fast_gicp::FastGICP<pcl::PointXYZ, pcl::PointXYZ>;
 template class fast_gicp::FastGICP<pcl::PointXYZI, pcl::PointXYZI>;
 template class fast_gicp::FastGICP<pcl::PointNormal, pcl::PointNormal>;
+template class fast_gicp::FastGICP<descriptor_pointcloud::PointXYZIRL, descriptor_pointcloud::PointXYZIRL>;
